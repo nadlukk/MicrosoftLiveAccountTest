@@ -31,7 +31,7 @@ namespace MicrosoftLiveAccountTest
         [TestCleanup]
         public void TestCleanup()
         {
-            //-driver.Dispose();
+            driver.Dispose();
         }
 
         [TestMethod]
